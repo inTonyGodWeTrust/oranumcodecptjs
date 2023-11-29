@@ -1,0 +1,16 @@
+{
+    "name": "oranumcodecptjs",
+    "version": "1.0.0",
+    "description": "",
+    "author": "Tony Godovanik",
+    "license": "ISC",
+    "devDependencies": {
+        "@codeceptjs/allure-legacy": "^1.0.2",
+        "codeceptjs": "^3.5.8",
+        "playwright": "^1.40.0",
+        "allure-commandline": "^2.22.4"
+    },
+    "scripts": {
+        "test": "npx codeceptjs run --features --plugins allure"
+    }
+}
