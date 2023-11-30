@@ -22,7 +22,7 @@
 
 ## Get Started with Docker:
 #### Build the project by docker:
-    docker build -t tonygod/oranumcodecptjs:latest https://github.com/inTonyGodWeTrust/oranumcodecptjs.git
+    docker build -t tonygod/oranumcodecptjs:latest https://github.com/inTonyGodWeTrust/oranumcodecptjs.git#main
 #### Run the project by docker:
     docker run -t -p 4999:4999 tonygod/oranumcodecptjs:latest
 #### Open Allure report on the page:
